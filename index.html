@@ -11,14 +11,14 @@
 <body>
     <div class="weather-app">
     <header>
-       <form class="search-form">
-          <input type="search" placeholder="Enter city..." required class="search-input">
+       <form class="search-form" id="search-form">
+          <input type="search" placeholder="Enter city..." required id="search-input" class="search-input">
           <input type="submit" value="Search" class="search-btn">
        </form>
     </header>
     <main>
         <div class="row">
-            <div class="col-8"><h1>Pretoria</h1>
+            <div class="col-8"><h1 id="city">Pretoria</h1>
             <p>
                 Friday 18:32, Sunny
                 <br>
@@ -36,5 +36,6 @@
         hosted on <a href="" target="_blank">Netlify</a>
     </footer>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
