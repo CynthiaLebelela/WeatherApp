@@ -45,11 +45,18 @@ header{
     color: rgb(241, 121, 211);
 }
 .col-4{
-    margin-top: 45px;
     font-size: 40px;
     font-weight: bolder
 }
-
+.col-4 {
+    display: flex;
+    align-items: center;
+}
+.weather-app-icon,
+.weather-app-temperature,
+.weather-app-unit {
+    margin: 0 5px;
+}
 a{
     color: rgb(136, 93, 241);
 }
