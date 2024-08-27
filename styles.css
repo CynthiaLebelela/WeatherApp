@@ -61,6 +61,17 @@ header{
 a{
     color: rgb(136, 93, 241);
 }
+.col-md-2 {
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+h5{
+    color: rgb(156, 154, 154)
+}
+.mt-2{
+    color: rgb(241, 121, 211);
+}
 footer {
     text-align: center;
     font-size: 15px;
