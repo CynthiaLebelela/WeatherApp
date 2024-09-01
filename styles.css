@@ -1,11 +1,11 @@
 
 body{
-    background-color:#F0F4F8;
+    background-color:#F7F7F7;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
 }
 .weather-app{
-    background-color:#ffffff;
+    background-color:#1E90FF;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 650px;
     margin: 50px auto;
@@ -26,12 +26,12 @@ header{
     border: none;
 }
 .search-btn{
-    background-color: rgb(136, 93, 241);
+    background-color: #FF6F61;
     margin-left: 10px;
     width: 110px;
     padding: 10px;
     font-size: 18px;
-    color: #ffffff;
+    color: #333333;
     border: none;
     border-radius: 5px;
 }
@@ -42,7 +42,7 @@ header{
     margin-top: 25px;
 }
 .col-8 strong{
-    color: rgb(241, 121, 211);
+    color: #64342f;
 }
 .col-4{
     font-size: 40px;
@@ -59,7 +59,7 @@ header{
     margin: 0 5px;
 }
 a{
-    color: rgb(136, 93, 241);
+    color: #64342f;
 }
 .col-md-2 {
     padding: 8px;
@@ -70,7 +70,7 @@ h5{
     color: rgb(156, 154, 154)
 }
 .mt-2{
-    color: rgb(241, 121, 211);
+    color: #FF6F61;
 }
 
 footer {
