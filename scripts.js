@@ -1,3 +1,5 @@
+
+
 //Update weather information on the right-side & it  also correct the the use of lower and uppercase in a word
 function updateWeatherInfo(response){
     let tempEle = document.querySelector("#temperature");
@@ -49,6 +51,25 @@ function changeH1(event){
 
     searchCity(searchSpace.value);
 }
+
+function displayForecast(){
+    let forecastElement = document.querySelector("#forecast");
+    let days =["Mon","Tue","Wen","Thu","Fri","Sat","Sun"];
+    let forecastHtml = "";
+    days.forEach(function(day){
+    forecastHtml  = forecastHtml + `
+     <div class="row">
+                    <div class="col-md-2 text-center mb-4">
+                        <h5>${day}</h5>
+                        <i class="fas fa-calendar fa-2x"></i> 
+                        <p class="mt-2"><strong>12&deg; 9&deg;</strong></p>
+                    </div>
+                    </div>
+                    `;
+    });
+    
+    forecastElement.innerHTML = forecastHtml;
+}
 //Call the h1 changes function
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", changeH1);
@@ -57,3 +78,4 @@ searchForm.addEventListener("submit", changeH1);
 //search city by current location 
 //searchCity();
 //Make the first letter a capital letter on the description
+displayForecast();
