@@ -51,7 +51,7 @@ function changeH1(event){
 
     searchCity(searchSpace.value);
 }
-
+/*
 function displayForecast(){
     let forecastElement = document.querySelector("#forecast");
     let days =["Mon","Tue","Wen","Thu","Fri","Sat","Sun"];
@@ -70,12 +70,13 @@ function displayForecast(){
     
     forecastElement.innerHTML = forecastHtml;
 }
+*/
 //Call the h1 changes function
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", changeH1);
 
 //To-Do List
 //search city by current location 
-//searchCity();
+searchCity("Pretoria");
 //Make the first letter a capital letter on the description
-displayForecast();
+//displayForecast();
